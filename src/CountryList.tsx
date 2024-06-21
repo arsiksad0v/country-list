@@ -5,7 +5,7 @@ interface CountryListProps {
 }
 
 const CountryList: React.FC<CountryListProps> = ({ setSelectedCountry }) => {
-  const countries = ["Afghanistan", "Albania", "Algeria", "Argentina", "Armenia"];
+  const countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Argentina", "Armenia", "Australia", "Austria", "Azerbaijan"];
 
   return (
     <div>
